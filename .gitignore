@@ -1,0 +1,20 @@
+# VS Code settings
+.vscode/
+
+# Gradio cache files
+.gradio/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (optional if large)
+*.pkl
+*.joblib
+
+# Environment
+env/
+venv/

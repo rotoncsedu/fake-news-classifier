@@ -33,6 +33,7 @@ Run the web app :<br>
 python app . py
 ## Project Structure
 
+```text
 fake-news-classifier/
 │
 ├── data/
@@ -52,6 +53,7 @@ fake-news-classifier/
 ├── preprocessing.py
 ├── requirements.txt
 └── README.md
+```
 ## Technologies Used
 - Python
 - Pandas , NLTK , Matplotlib , Seaborn

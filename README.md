@@ -33,7 +33,7 @@ Run the web app :<br>
 python app . py
 ## Project Structure
 
-fake - news - classifier /
+fake-news-classifier/
 │
 ├── data/
 │   └── fake_and_real_news.csv
@@ -43,13 +43,13 @@ fake - news - classifier /
 │   └── 2_training.ipynb
 │
 ├── models/
-│   └── best_model.pkl
+│   └── fake_news_model.pkl
 │
 ├── screenshots/
 │   └── gradio_interface.png
 │
 ├── app.py
-├── procecssing.py
+├── preprocessing.py
 ├── requirements.txt
 └── README.md
 ## Technologies Used

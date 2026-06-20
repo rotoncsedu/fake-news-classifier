@@ -2,32 +2,34 @@
 ## Overview
 This is a Repo contains classify the News article for Real/Fake News ditection
 
-2
-
 ## Dataset
 - Features used : Text
 - Target : label ( Fake / Real )
 - Total samples : [ 9900 ]
 ## Model Comparison
-| Model | Accuracy | Precision | Recall | F1 - Score |
-| - - - - - - - - - - - - - - - - - - - - - - - - -| - - - - - - - - - -| - - - - - - - - - - -| - - - - - - - -| - - - - - - - - - -|
+| Model | Accuracy | Precision | Recall | F1-Score |
+|---------|----------|-----------|--------|----------|
 | Multinomial Naive Bayes | 0.97 | 0.97 | 0.97 | 0.97 |
 | Logistic Regression | 0.99 | 0.99 | 0.99 | 0.99 |
+
 ## Final Model
-** Model :** Logistic Regression
-** Accuracy :** 0.990877
-** Why this model ?**
-Logistic Regression was selected as the final model because it achieved the best overall performance, with an Accuracy, Precision, Recall, and F1-Score of 0.99. Since it outperformed Multinomial Naive Bayes across all evaluation metrics and achieved the highest F1-Score, it was considered the most reliable model for classifying Fake and Real news articles.
+
+**Model:** Logistic Regression  
+**Accuracy:** 99.09%
+
+### Why this model?
+
+Logistic Regression was selected as the final model because it achieved the best overall performance among the evaluated models. It obtained an accuracy of **99.09%** and outperformed Multinomial Naive Bayes across all evaluation metrics, including Precision, Recall, and F1-Score. Since it achieved the highest F1-Score, indicating the best balance between Precision and Recall, it was considered the most reliable model for classifying Fake and Real news articles.
 ## Web Application
 Deployed using Gradio .
 ### Screenshots
-![ Gradio Interface ]( screenshots\gradio_interface.png)
+![Gradio Interface](screenshots/gradio_interface.png)
 ## Installation
-git clone https://github.com/rotoncsedu/fake-news-classifier
-cd fake-news-classifier
-pip install -r requirements . txt
+git clone https://github.com/rotoncsedu/fake-news-classifier <br>
+cd fake-news-classifier<br>
+pip install -r requirements . txt<br>
 ## Usage
-Run the web app :
+Run the web app :<br>
 python app . py
 ## Project Structure
 
@@ -55,3 +57,11 @@ fake - news - classifier /
 - Pandas , NLTK , Matplotlib , Seaborn
 - Scikit - learn
 - Gradio
+
+## 👨‍💻 Author
+
+Md. Al-Imran Roton
+
+Programmer, Begum Rokeya University, Rangpur
+
+Machine Learning & AI Enthusiast

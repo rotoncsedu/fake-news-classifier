@@ -1,0 +1,13 @@
+pathlib
+pandas
+numpy
+scikit-learn
+nltk
+matplotlib
+seaborn
+wordcloud
+gradio
+joblib
+IPython
+jupyter
+notebook

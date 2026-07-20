@@ -27,10 +27,10 @@ Deployed using Gradio .
 ## Installation
 git clone https://github.com/rotoncsedu/fake-news-classifier <br>
 cd fake-news-classifier<br>
-pip install -r requirements . txt<br>
+pip install -r requirements.txt<br>
 ## Usage
 Run the web app :<br>
-python app . py
+python app.py
 ## Project Structure
 
 ```text
@@ -44,7 +44,7 @@ fake-news-classifier/
 │   └── 2_training.ipynb
 │
 ├── models/
-│   └── fake_news_model.pkl
+│   └── best_model.pkl
 │
 ├── screenshots/
 │   └── gradio_interface.png

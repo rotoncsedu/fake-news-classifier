@@ -2,12 +2,14 @@ from preprocessing import preprocess
 import joblib
 import gradio as gr
 
+model_path = r'models\best_model.pkl'
+model = joblib.load(model_path)
+
 def predict_news(text):
     cleaned_text = preprocess(text)
     print(f"Cleaned Text: {cleaned_text}")
     # Load the saved model
-    model_path = r'models\best_model.pkl'
-    model = joblib.load(model_path)
+    
     
     # Make a prediction
     confidence = model.predict_proba([cleaned_text])[0]
